@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Loop</h1>
+    <ul>
+      <script>
+        var coworkers = ['1','2','3'];
+
+        document.write('<li>1</li>');
+        var i = 0;
+        while(i < 4){
+          document.write('<li>2</li>');
+          document.write('<li>3</li>');
+          i = i + 1;
+        }
+        document.write('<li>4</li>');
+
+        var j = 0;
+        while(j < coworkers.length)
+        {
+          document.write('<li><a href="'+coworkers[j]+'.html">'+coworkers[j]+'</a></li>');
+          j = j + 1;
+        }
+        document.write('<a href="http://www.naver.com/">naver</a>');
+      </script>
+    </ul>
+  </body>
+</html>
